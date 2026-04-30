@@ -15,7 +15,7 @@ jobs:
           tar -xJf /opt/sdk.tar.xz -C /opt
           git clone https://github.com/h70076000/hxzn-package.git /opt/ntwon
           cd /opt/openwrt-sdk*/package
-          cp -R /opt/vnt/luci-app-ntwon .
+          cp -R /opt/ntwon/luci-app-ntwon .
           cd /opt/openwrt-sdk*
           ./scripts/feeds update -a
           make defconfig
